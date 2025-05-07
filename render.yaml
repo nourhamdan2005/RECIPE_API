@@ -1,7 +1,7 @@
 services:
   - type: web
     name: recipe-api
-    env: java
+    runtime: java
     buildCommand: "./mvnw clean package"
     startCommand: "java -jar target/recipeApi-0.0.1-SNAPSHOT.jar"
     branch: main
